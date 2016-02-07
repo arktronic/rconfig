@@ -1,0 +1,11 @@
+e1 # magic (0xe1)
+01 # config structure version (0x01)
+00 # mode (0x00 = standard, 0x01 = gpio rom)
+00 # current rom number starting from 0
+00 # rom number for gpio rom
+03 # number of available roms
+ffff # padding
+00200000 # first rom at 0x00002000
+00201000 # second rom at 0x00102000
+00202000 # third rom at 0x00202000
+00000000 # fourth rom placeholder, since max is 4 by default
